@@ -135,10 +135,10 @@ const products = [
     rating: 4.5,
     numReviews: 4,
   },
-
+  
   {
     name: 'Shell Phone Case',
-    image: '/images/8.jpg',
+    image: '/myImages/shellcase.jpeg',
     description: 'Embrace the beauty of the sea with this stunning phone case adorned with intricate ocean shell designs, bringing a touch of coastal elegance to your everyday style.',
     size: '24in x 32in',
     category: 'Hand Painted Phone Case',
@@ -150,7 +150,7 @@ const products = [
 
   {
     name: 'Elegant Phone Case',
-    image: '/images/8.jpg',
+    image: '/myImages/IMG-59.png',
     description: 'Add a touch of spring to your phone with this beautiful case featuring delicate pink tulips, blending elegance and charm to brighten your everyday look.',
     size: '24in x 32in',
     category: 'Hand Painted Phone Case',
@@ -163,7 +163,7 @@ const products = [
   
   {
     name: 'Cloudy Hearts: Whimsical Phone Case',
-    image: '/images/8.jpg',
+    image: '/myImages/IMG-60.png',
     description: 'Elevate your phone style with this enchanting case featuring fluffy clouds and a delicate heart design on a pristine white background, bringing a touch of whimsy and romance to your everyday carry.',
     size: '24in x 32in',
     category: 'Hand Painted Phone Case',
@@ -176,7 +176,7 @@ const products = [
   
   {
     name: 'Taylors Version: Iconic Phone Case',
-    image: '/images/8.jpg',
+    image: '/myImages/IMG-61.png',
     description: 'Celebrate your love for Taylor Swift with this stylish phone case inspired by "Taylors Version," featuring a sleek design that pays tribute to her iconic music and era.',
     size: '24in x 32in',
     category: 'Hand Painted Phone Case',
@@ -186,6 +186,7 @@ const products = [
     numReviews: 4,
   },
   
+
  
   
  
