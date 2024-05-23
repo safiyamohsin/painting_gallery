@@ -2,6 +2,7 @@ import { Link } from 'react-router-dom';
 import { Carousel, Image } from 'react-bootstrap';
 import Message from './Message';
 import { useGetTopProductsQuery } from '../slices/productsApiSlice';
+import './ProductCarousel.css';
 
 const ProductCarousel = () => {
   const { data: products, isLoading, error } = useGetTopProductsQuery();

@@ -1,0 +1,27 @@
+.product-title
+{
+    cursor: pointer !important;
+    /* font-family: "Poppins", sans-serif; */
+    /* font-weight: 500; */
+    font-style: normal;
+    font-size: 25px !important; /* Adjusted font size for better readability */
+    text-decoration: none !important;
+    font-weight: 400 !important;
+    color: black;
+}
+.product-title a {
+    text-decoration: none !important; /* Remove underline from link */
+}
+
+.my-card {
+    height: 100%; /* Ensure the card takes full height */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.card-image {
+    width: 100%; /* Ensure the image takes full width of the container */
+    height: 300px; /* Set a fixed height for the image */
+    object-fit: contain; /* Ensure the entire image fits within the container */
+}
