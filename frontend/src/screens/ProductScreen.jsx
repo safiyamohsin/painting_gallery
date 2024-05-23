@@ -2,6 +2,7 @@ import { useState } from 'react';
 import { useNavigate, useParams } from 'react-router-dom';
 import { Link } from 'react-router-dom';
 import { useDispatch, useSelector } from 'react-redux';
+import './ProductScreen.css';
 import {
   Row,
   Col,
@@ -81,8 +82,17 @@ const ProductScreen = () => {
         <>
           <Meta title={product.name} description={product.description} />
           <Row>
-            <Col md={6}>
+            {/* <Col md={6}>
               <Image src={product.image} alt={product.name} fluid />
+            </Col> */}
+
+              <Col md={5} className="product-image-col">
+              <Image
+                className="mx-auto image-machine"
+                src={product.image}
+                alt={product.name}
+                width={200}
+              />
             </Col>
             <Col md={3}>
               <ListGroup variant='flush'>
@@ -108,7 +118,7 @@ const ProductScreen = () => {
                     <Row>
                       <Col>Price:</Col>
                       <Col>
-                        <strong>${product.price}</strong>
+                        <strong>Rs.{product.price}</strong>
                       </Col>
                     </Row>
                   </ListGroup.Item>

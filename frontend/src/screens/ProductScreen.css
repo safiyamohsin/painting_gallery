@@ -1,0 +1,13 @@
+.image-machine
+{
+    margin: auto;    
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+.product-image-col {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
