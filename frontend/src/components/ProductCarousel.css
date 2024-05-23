@@ -1,0 +1,11 @@
+.product-carousel {
+    width: 100%; /* Increase carousel width */
+    margin: auto; /* Center the carousel */
+  }
+  
+  .carousel-item img {
+    object-fit: cover;
+    height: 800px; /* Adjust the height as needed */
+    width: 100%; /* Ensure the image covers the width of the carousel item */
+  }
+  
