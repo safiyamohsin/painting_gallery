@@ -12,8 +12,8 @@ const products = [
     numReviews: 4,
   },
   {
-    name: 'BeachOcean',
-    image: '/myImages/BeachOcean.png',
+    name: 'Butterfly',
+    image: '/myImages/Butterfly.jpg',
     description: 'Capture the enigmatic presence of Itachi Uchiha with this acrylic painting, perfect for any Naruto fan.',
     size: '16in x 13in',
     category: 'Canvas',
@@ -25,6 +25,17 @@ const products = [
   {
     name: 'Colour of choice',
     image: '/myImages/sofapaper.jpg',
+    description: 'Capture the enigmatic presence of Itachi Uchiha with this acrylic painting, perfect for any Naruto fan.',
+    size: '16in x 13in',
+    category: 'Canvas',
+    price: 2399,
+    countInStock: 3,
+    rating: 5,
+    numReviews: 4,
+  },
+  {
+    name: 'Colour of choice',
+    image: '/myImages/brushes.jpg',
     description: 'Capture the enigmatic presence of Itachi Uchiha with this acrylic painting, perfect for any Naruto fan.',
     size: '16in x 13in',
     category: 'Canvas',
